@@ -13,7 +13,7 @@ Landing page estática (HTML + CSS + JS, sin frameworks) para la venta de autos 
 ## Secciones de la página
 1. **Header** fijo con menú: Autos, Quiénes somos, Talleres y Repuestos, Ubicación, Contacto.
 2. **Hero** destacado en dos columnas: etiqueta "Oferta de temporada", título "Tu próximo auto, hoy.", texto promocional (financiación hasta 60 cuotas y usado como parte de pago), CTA "Ver autos" + enlace "Pedí tu cotización →" al contacto, e imagen de la Ford Territory. En móvil se apila.
-3. **Nuestros autos**: 9 tarjetas (2 por marca, más el Audi A3) con marca, modelo, imagen, precio y descripción.
+3. **Nuestros autos**: 10 tarjetas (2 por marca, más Audi A3 y A4) con marca, modelo, imagen, precio y descripción.
 4. **Quiénes somos**: más de 15 años de experiencia en venta de autos.
 5. **Talleres y Repuestos**: talleres para mantenimiento de vehículos y repuestos Peugeot, Citroën, Ford y Chevrolet.
 6. **Dónde estamos**: mapa de Google Maps de Palermo, CABA.
@@ -33,6 +33,7 @@ Landing page estática (HTML + CSS + JS, sin frameworks) para la venta de autos 
 | Chevrolet | Tracker | $ 62.280.000 |
 | Chevrolet | Equinox | $ 93.600.000 |
 | Audi | A3 Sedán | $ 64.240.000 |
+| Audi | A4 | $ 75.920.000 |
 
 Todos superan los $50.000.000. Los precios ya incluyen un aumento del 20% sobre los valores iniciales.
 
@@ -45,5 +46,6 @@ Todos superan los $50.000.000. Los precios ya incluyen un aumento del 20% sobre 
 - **Nueva sección "Usados"**: agregar una sección de autos usados (con enlace en el menú del header y sección en `index.html`, y su propio array de datos en `app.js` o similar). Por ahora no hay vehículos cargados: definir el diseño de las tarjetas (año, kilometraje, precio) y mostrar un mensaje tipo "Próximamente" hasta tener stock.
 - **Imágenes faltantes**: faltan `peugeot-308-gt` y `chevrolet-equinox` (se muestra un cartel gris "Imagen no disponible"). Ranger, Territory y 2008 se tomaron de autosencuotas.com.ar (la del 2008 es la foto genérica, no la versión GT); son imágenes de terceros, confirmar permiso de uso o reemplazar por fotos propias.
 - **Audi A3 Sedán**: el precio es estimado (US$ 44.000 de lista × $1.460 ≈ $ 64.240.000); ajustar al valor real. La imagen sale de Autocosmos (tercero): confirmar permiso de uso o reemplazar.
+- **Audi A4**: el precio es estimado (unos US$ 52.000 de un A4 2024 de bajo kilometraje × $1.460 ≈ $ 75.920.000; en elcerokm.com el 0km figura sin stock); ajustar al valor real. La foto es de Wikimedia Commons, licencia CC BY-SA 4.0, autor Alexander-93 ("Audi A4 B9 sedans (FL) 1X7A2439.jpg"): requiere dar crédito al autor; si se publica así, agregar la atribución en la página o reemplazarla por una foto propia.
 - **Texto promocional del Hero**: las "60 cuotas" y la "oferta de temporada" son de ejemplo; ajustar a las condiciones reales.
 - **Formulario**: con `mailto` abre el correo del visitante; para envío directo integrar Formspree o EmailJS.

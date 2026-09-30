@@ -17,7 +17,9 @@ const autos = [
   { marca: "Chevrolet", modelo: "Equinox", precio: 93600000, imagen: "images/chevrolet-equinox.jpg",
     descripcion: "SUV premium de gran espacio, motor turbo y tecnología avanzada de seguridad y confort." },
   { marca: "Audi", modelo: "A3 Sedán", precio: 64240000, imagen: "images/audi-a3.jpg",
-    descripcion: "Sedán premium compacto con motor 1.4 TFSI turbo de 150 cv, transmisión automática y tecnología de punta." }
+    descripcion: "Sedán premium compacto con motor 1.4 TFSI turbo de 150 cv, transmisión automática y tecnología de punta." },
+  { marca: "Audi", modelo: "A4", precio: 75920000, imagen: "images/audi-a4.jpg",
+    descripcion: "Sedán premium de líneas elegantes, motor 2.0 TFSI turbo, transmisión S tronic y cabina de alta tecnología." }
 ];
 
 const placeholder = "data:image/svg+xml;utf8," + encodeURIComponent(
